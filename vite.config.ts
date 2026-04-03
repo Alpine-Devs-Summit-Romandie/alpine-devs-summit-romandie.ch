@@ -18,8 +18,21 @@ export default defineConfig({
     vueDevTools(),
     vuetify({
       styles: { configFile: 'src/styles/settings.scss' },
+      autoImport: true,
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vuetify: ['vuetify'],
+          vue: ['vue', 'vue-router', 'pinia', 'vue-i18n'],
+        },
+      },
+    },
+    // Augmenter la limite d'avertissement si nécessaire
+    chunkSizeWarningLimit: 1000, // kB
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
