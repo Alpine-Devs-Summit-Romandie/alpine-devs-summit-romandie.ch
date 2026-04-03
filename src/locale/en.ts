@@ -1,0 +1,53 @@
+export default {
+  header: {
+    topBar: {
+      newsletterBtn: 'Stay informed'
+    }
+  },
+  footer: {
+    copyright: '2026 Alpine Devs Summit Romandie. Built with passion for the Romandy ecosystem.'
+  },
+  welcome: {
+    hero: {
+      titlePart1: 'Elevate your code',
+      titlePart2: 'to the summit',
+      subtitle: 'Romandy conference for developers of all levels.',
+      survey: 'Take part in our survey and help shape this new conference.',
+      surveyBtn: 'Take the survey',
+      surveyLink: 'https://fr.surveymonkey.com/r/KNSJJMX'
+    }
+  },
+  values: {
+    share: {
+      title: 'Sharing',
+      text: 'Share real experiences and pass on modern and responsible software development practices.'
+    },
+    open: {
+      title: 'Openness',
+      text: 'Create a bilingual space (FR/EN) where developers of all levels can learn, ask questions, and grow together around modern best practices, without dogmatism.'
+    },
+    federate: {
+      title: 'Community',
+      text: 'Bring together the Romandy developer community around a culture of clean code, sustainable architecture, and authentic experience sharing.'
+    }
+  },
+  newsletter: {
+    form: {
+      emailLabel: 'E-mail',
+      emailPlaceholder: 'E-mail *',
+      configInfomaniak: {
+        formId: '23798',
+        formKey: 'eyJpdiI6Imc2K2Q0OUMyUHZaeSt4K0VPRHlXa2IxdWJSYWh4V1kxVW5WRFRpV1FCNTA9IiwibWFjIjoiNTBlMTM1OGYzZTJiMDRkZmIwZGE1NDRiMDA4MDI4MjA5M2FmYzQ0MGE5OWQzMzZkZTg3OTljODIyY2JlMTM1MyIsInZhbHVlIjoiSXpqRlJwYlpWWE0xSWpkMkpaZzRVM1FYWVlwQmZWM2RHeFlQdVpNMVpFOD0ifQ==',
+        formCssClassId: '67236033be4f58d696d0d4ada931c543',
+      }
+    },
+    alert: {
+      title: 'Subscription confirmed',
+      text: 'A confirmation email has been sent to you. Please check your inbox.'
+    },
+    callToAction: {
+      text: 'Subscribe to our newsletter and stay informed about the latest updates!',
+      button: 'Subscribe'
+    }
+  }
+}
