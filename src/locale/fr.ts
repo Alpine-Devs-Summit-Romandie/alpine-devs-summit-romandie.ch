@@ -49,5 +49,41 @@ export default {
       text: 'Inscrivez-vous à notre newsletter et ne manquez pas d\'être informé des nouveautés !',
       button: 'S\'inscrire',
     }
+  },
+  cookie: {
+    title: 'Gestion des cookies',
+    description: 'Nous utilisons des cookies pour améliorer votre expérience. Vous pouvez choisir les services que vous souhaitez autoriser.',
+    customize: 'Personnaliser',
+    essentialOnly: 'Essentiels seulement',
+    acceptAll: 'Tout accepter',
+    manageTooltip: 'Gérer les cookies',
+    settings: {
+      title: 'Paramètres des cookies',
+      description: 'Configurez vos préférences pour chaque catégorie de cookies. Vous pouvez modifier ces paramètres à tout moment.',
+      save: 'Enregistrer mes choix',
+      alwaysActive: 'Toujours actif',
+      disabled: 'Ce cookie n\'est pas encore implémenté.',
+      essential: {
+        title: 'Cookies essentiels',
+        description: 'Ces cookies sont nécessaires au fonctionnement du site. Ils ne peuvent pas être désactivés.'
+      },
+      analytics: {
+        title: 'Cookies analytiques',
+        description: 'Nous aident à comprendre comment vous utilisez le site pour l\'améliorer.'
+      },
+      marketing: {
+        title: 'Cookies marketing',
+        description: 'Utilisés pour la publicité ciblée et le remarketing.',
+        services: 'Publicité, remarketing'
+      },
+      functional: {
+        title: 'Cookies fonctionnels',
+        description: 'Permettent de mémoriser vos préférences (thème, langue, etc.).',
+        services: 'Préférences utilisateur'
+      }
+    }
+  },
+  common: {
+    cancel: 'Annuler'
   }
 }

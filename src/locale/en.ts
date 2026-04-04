@@ -49,5 +49,41 @@ export default {
       text: 'Subscribe to our newsletter and stay informed about the latest updates!',
       button: 'Subscribe'
     }
+  },
+  cookie: {
+    title: 'Cookie Management',
+    description: 'We use cookies to improve your experience. You can choose which services you want to allow.',
+    customize: 'Customize',
+    essentialOnly: 'Essential only',
+    acceptAll: 'Accept all',
+    manageTooltip: 'Manage cookies',
+    settings: {
+      title: 'Cookie Settings',
+      description: 'Configure your preferences for each cookie category. You can change these settings at any time.',
+      save: 'Save my choices',
+      alwaysActive: 'Always active',
+      disabled: 'This cookie is not yet implemented.',
+      essential: {
+        title: 'Essential Cookies',
+        description: 'These cookies are necessary for the website to function. They cannot be disabled.'
+      },
+      analytics: {
+        title: 'Analytics Cookies',
+        description: 'Help us understand how you use the site to improve it.'
+      },
+      marketing: {
+        title: 'Marketing Cookies',
+        description: 'Used for targeted advertising and remarketing.',
+        services: 'Advertising, remarketing'
+      },
+      functional: {
+        title: 'Functional Cookies',
+        description: 'Allow us to remember your preferences (theme, language, etc.).',
+        services: 'User preferences'
+      }
+    }
+  },
+  common: {
+    cancel: 'Cancel'
   }
 }
