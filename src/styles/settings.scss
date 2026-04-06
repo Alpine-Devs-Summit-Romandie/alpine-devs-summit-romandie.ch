@@ -1,4 +1,7 @@
+@use 'sass:string';
 @use './variables';
 
 // Configuration Vuetify
-@use 'vuetify/settings';
+@use 'vuetify/settings' with (
+  $body-font-family: string.unquote('"Montserrat", sans-serif'),
+);

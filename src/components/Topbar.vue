@@ -16,14 +16,14 @@ function switchLang() {
       &lt;A/&gt;
     </v-app-bar-nav-icon>
     <v-toolbar-title>Alpine Devs Summit Romandie</v-toolbar-title>
-    <!--<v-btn
+    <v-btn
       variant="text"
       color="primary"
       class="d-none d-sm-inline-flex text-none font-weight-semibold"
       to="/mission"
     >
       Mission
-    </v-btn>-->
+    </v-btn>
     <v-btn
       color="primary"
       variant="flat"
