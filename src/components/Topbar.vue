@@ -12,17 +12,26 @@ function switchLang() {
 
 <template>
   <v-app-bar class="px-3">
-    <v-app-bar-nav-icon class="logo-icon">
+    <v-app-bar-nav-icon
+      class="text-primary text-headline-small font-weight-bold"
+      to="/"
+    >
       &lt;A/&gt;
     </v-app-bar-nav-icon>
     <v-toolbar-title>Alpine Devs Summit Romandie</v-toolbar-title>
     <v-btn
-      variant="text"
+      variant="plain"
       color="primary"
-      class="d-none d-sm-inline-flex text-none font-weight-semibold"
+      to="/"
+    >
+      {{ $t('header.topBar.home') }}
+    </v-btn>
+    <v-btn
+      variant="plain"
+      color="primary"
       to="/mission"
     >
-      Mission
+      {{ $t('header.topBar.mission') }}
     </v-btn>
     <v-btn
       color="primary"
@@ -44,11 +53,4 @@ function switchLang() {
 </template>
 
 <style scoped>
-.logo-icon {
-  font-weight: 900;
-  font-size: 1.5rem;
-  color: var(--primary-blue);
-  padding: 5px 10px;
-  border-radius: 8px;
-}
 </style>

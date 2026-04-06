@@ -1,6 +1,8 @@
 export default {
   header: {
     topBar: {
+      home: 'Accueil',
+      mission: 'Mission',
       newsletterBtn: 'Restez informé·e'
     }
   },
@@ -33,8 +35,8 @@ export default {
   },
   newsletter: {
     form: {
-      emailLabel: 'Email',
-      emailPlaceholder: 'Email *',
+      emailLabel: 'E-mail',
+      emailPlaceholder: 'E-mail *',
       configInfomaniak: {
         formId: '23729',
         formKey: 'eyJpdiI6IlFYRVROZFFVSUFhWG9DSzNJdjZUY1RUMGU2Y1VcL3NabHljclRPK1Jwd1NrPSIsIm1hYyI6ImUzMmUwZDIyZTViYWYwMmYyMzM1YmJhZmNiNmQ2ZTZmZThmYzU5MWNjMGVmZjRmMTBiOTljYmEwMjc1ZGM2YTQiLCJ2YWx1ZSI6Im5WYzJtVDZEMVJkeFEyODVpM3JoQ21DYWkwQjlNUGZ6OEFzdlZxU2N0ckU9In0=',
