@@ -1,10 +1,9 @@
 <template>
-    <!-- FAB pour ouvrir les paramètres des cookies -->
     <v-fab
       class="me-4"
       color="secondary"
       location="bottom right"
-      absolute
+      app
       icon
       @click="openSettings"
     >

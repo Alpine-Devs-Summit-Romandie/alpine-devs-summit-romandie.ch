@@ -1,6 +1,8 @@
 export default {
   header: {
     topBar: {
+      home: 'Home',
+      mission: 'Mission',
       newsletterBtn: 'Stay informed'
     }
   },
@@ -33,8 +35,8 @@ export default {
   },
   newsletter: {
     form: {
-      emailLabel: 'E-mail',
-      emailPlaceholder: 'E-mail *',
+      emailLabel: 'Email',
+      emailPlaceholder: 'Email *',
       configInfomaniak: {
         formId: '23798',
         formKey: 'eyJpdiI6Imc2K2Q0OUMyUHZaeSt4K0VPRHlXa2IxdWJSYWh4V1kxVW5WRFRpV1FCNTA9IiwibWFjIjoiNTBlMTM1OGYzZTJiMDRkZmIwZGE1NDRiMDA4MDI4MjA5M2FmYzQ0MGE5OWQzMzZkZTg3OTljODIyY2JlMTM1MyIsInZhbHVlIjoiSXpqRlJwYlpWWE0xSWpkMkpaZzRVM1FYWVlwQmZWM2RHeFlQdVpNMVpFOD0ifQ==',
@@ -82,6 +84,13 @@ export default {
         services: 'User preferences'
       }
     }
+  },
+  mission: {
+    "title": "Our Mission",
+    "paragraph1": "Software development is evolving rapidly, but spaces to share concrete and pragmatic feedback and experiences in the region are still too rare.",
+    "paragraph2": "Alpine Devs Summit Romandie is a conference dedicated to developers in the Romandie region. Our mission is to grow the local developer ecosystem by creating an event designed as a space for exchange and learning, where software professionals can share knowledge, discover the latest technological trends, and promote modern development best practices.",
+    "paragraph3": "We believe better software is built collectively within an open and inclusive community, where everyone, regardless of experience level, can learn, contribute, and benefit from shared knowledge. By anchoring our event in the unique setting of Western Switzerland, we aim to inspire developers to reach new heights in their careers and projects.",
+    "paragraph4": "Our commitment: to foster responsible innovation, encourage cross-company collaboration, and strengthen the regional tech ecosystem through high-quality talks, hands-on workshops, and authentic networking opportunities."
   },
   common: {
     cancel: 'Cancel'

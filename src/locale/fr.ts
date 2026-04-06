@@ -1,6 +1,8 @@
 export default {
   header: {
     topBar: {
+      home: 'Accueil',
+      mission: 'Mission',
       newsletterBtn: 'Restez informé·e'
     }
   },
@@ -11,7 +13,7 @@ export default {
     hero: {
       titlePart1: 'Élevez votre code',
       titlePart2: 'au sommet',
-      subtitle: 'Conférence Romande pour Développeur·e·s de tous niveaux.',
+      subtitle: 'Conférence Romande pour Développeur·euse·s de tous niveaux.',
       survey: 'Participez à notre sondage et contribuez à l\'élaboration de cette nouvelle conférence.',
       surveyBtn: 'Participez au sondage',
       surveyLink: 'https://fr.surveymonkey.com/r/KNSJJMX',
@@ -24,17 +26,17 @@ export default {
     },
     open: {
       title: 'Ouverture',
-      text: 'Créer un espace bilingue (FR/EN) où développeur·e·s de tous niveaux peuvent apprendre, questionner et progresser ensemble autour des meilleures pratiques modernes, sans dogmatisme.'
+      text: 'Créer un espace bilingue (FR/EN) où développeur·euse·s de tous niveaux peuvent apprendre, questionner et progresser ensemble autour des meilleures pratiques modernes, sans dogmatisme.'
     },
     federate: {
       title: 'Fédération',
-      text: 'Rassembler la communauté des développeur·e·s romand·e·s autour d\'une culture du clean code, de l\'architecture durable et du partage d\'expérience authentique.'
+      text: 'Rassembler la communauté des développeur·euse·s romand·e·s autour d\'une culture du clean code, de l\'architecture durable et du partage d\'expérience authentique.'
     },
   },
   newsletter: {
     form: {
-      emailLabel: 'Email',
-      emailPlaceholder: 'Email *',
+      emailLabel: 'E-mail',
+      emailPlaceholder: 'E-mail *',
       configInfomaniak: {
         formId: '23729',
         formKey: 'eyJpdiI6IlFYRVROZFFVSUFhWG9DSzNJdjZUY1RUMGU2Y1VcL3NabHljclRPK1Jwd1NrPSIsIm1hYyI6ImUzMmUwZDIyZTViYWYwMmYyMzM1YmJhZmNiNmQ2ZTZmZThmYzU5MWNjMGVmZjRmMTBiOTljYmEwMjc1ZGM2YTQiLCJ2YWx1ZSI6Im5WYzJtVDZEMVJkeFEyODVpM3JoQ21DYWkwQjlNUGZ6OEFzdlZxU2N0ckU9In0=',
@@ -82,6 +84,14 @@ export default {
         services: 'Préférences utilisateur'
       }
     }
+  },
+  mission: {
+    title: "Notre mission",
+    paragraph1: "Le développement logiciel évolue vite, mais les espaces pour partager des retours d'expérience concrets et pragmatiques dans la région restent encore trop rares.",
+    paragraph2: "Alpine Devs Summit Romandie est une conférence dédiée aux développeur·euse·s de la région romande. Notre mission est de faire grandir l'écosystème des développeur·euse·s en Suisse romande en créant un événement qui se veut être un espace d'échange et d'apprentissage, où les professionnel·le·s du développement logiciel peuvent partager leurs connaissances, découvrir les dernières tendances technologiques et promouvoir les meilleures pratiques du développement moderne.",
+    paragraph3: "Nous croyons qu'un meilleur logiciel se construit collectivement, au sein d'une communauté ouverte et inclusive, où chacun·e, quel que soit son niveau d'expérience, peut apprendre, contribuer et bénéficier du partage collectif. En ancrant notre événement dans le cadre unique de la Romandie, nous souhaitons inspirer les développeur·euse·s à atteindre de nouveaux sommets dans leur carrière et leurs projets.",
+    paragraph4: "Notre engagement : favoriser une innovation responsable, encourager la collaboration inter-entreprises et renforcer l'écosystème technologique de la Suisse romande à travers des conférences de qualité, des ateliers pratiques et des moments de networking authentiques."
+
   },
   common: {
     cancel: 'Annuler'
