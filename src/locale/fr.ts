@@ -93,7 +93,25 @@ export default {
     paragraph4: "Notre engagement : favoriser une innovation responsable, encourager la collaboration inter-entreprises et renforcer l'écosystème technologique de la Suisse romande à travers des conférences de qualité, des ateliers pratiques et des moments de networking authentiques."
 
   },
+  contact: {
+    title: 'Contactez-nous',
+    intro: 'Pour nous contacter, veuillez remplir le formulaire ci-dessous ou nous écrire directement à info\\@alpine-devs-summit-romandie.ch',
+    name: 'Nom',
+    namePlaceholder: 'Votre nom *',
+    nameRequired: 'Le nom est requis',
+    email: 'E-mail',
+    emailPlaceholder: 'Votre e-mail *',
+    emailRequired: 'L\'e-mail est requis',
+    emailValid: 'L\'e-mail doit être valide',
+    message: 'Message',
+    messagePlaceholder: 'Votre message *',
+    messageRequired: 'Le message est requis',
+    submit: 'Envoyer',
+    success: 'Message envoyé avec succès',
+    error: 'Erreur lors de l\'envoi'
+  },
   common: {
-    cancel: 'Annuler'
+    cancel: 'Annuler',
+    close: 'Fermer'
   }
 }

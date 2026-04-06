@@ -23,6 +23,9 @@ const values = [
     <v-container>
       <v-row>
         <v-col
+          cols="12"
+          md="4"
+          sm="12"
           v-for="value in values"
           :key="value.title"
         >

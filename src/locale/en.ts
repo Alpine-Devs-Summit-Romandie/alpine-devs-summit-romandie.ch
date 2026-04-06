@@ -92,7 +92,25 @@ export default {
     "paragraph3": "We believe better software is built collectively within an open and inclusive community, where everyone, regardless of experience level, can learn, contribute, and benefit from shared knowledge. By anchoring our event in the unique setting of Western Switzerland, we aim to inspire developers to reach new heights in their careers and projects.",
     "paragraph4": "Our commitment: to foster responsible innovation, encourage cross-company collaboration, and strengthen the regional tech ecosystem through high-quality talks, hands-on workshops, and authentic networking opportunities."
   },
+  contact: {
+    title: 'Contact Us',
+    intro: 'To contact us, please fill out the form below or write to us directly at info\\@alpine-devs-summit-romandie.ch',
+    name: 'Name',
+    namePlaceholder: 'Your name *',
+    nameRequired: 'Name is required',
+    email: 'Email',
+    emailPlaceholder: 'Your email *',
+    emailRequired: 'Email is required',
+    emailValid: 'Email must be valid',
+    message: 'Message',
+    messagePlaceholder: 'Your message *',
+    messageRequired: 'Message is required',
+    submit: 'Send',
+    success: 'Message sent successfully',
+    error: 'Error sending message'
+  },
   common: {
-    cancel: 'Cancel'
+    cancel: 'Cancel',
+    close: 'Close'
   }
 }

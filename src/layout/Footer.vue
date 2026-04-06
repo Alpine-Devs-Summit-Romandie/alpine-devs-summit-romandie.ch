@@ -1,6 +1,10 @@
 <script setup lang="ts">
 
 import NewsletterIk from "@/components/NewsletterIk.vue";
+import ContactModal from "@/components/ContactModal.vue";
+import { ref } from 'vue';
+
+const showContact = ref(false);
 </script>
 
 <template>
@@ -13,8 +17,15 @@ import NewsletterIk from "@/components/NewsletterIk.vue";
         formCssClassId: $t('newsletter.form.configInfomaniak.formCssClassId')
       }"
     />
-    <p>&copy; {{ $t('footer.copyright') }}</p>
+    <div class="d-flex align-center w-100">
+      <v-btn icon="mdi-email" @click="showContact = true" color="primary" variant="text" />
+      <p class="text-center w-100">&copy; {{ $t('footer.copyright') }}</p>
+    </div>
   </v-footer>
+  <ContactModal
+    v-model="showContact"
+    :locale="$i18n.locale"
+  />
 </template>
 
 <style scoped>
