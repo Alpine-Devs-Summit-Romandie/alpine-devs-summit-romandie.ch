@@ -126,11 +126,15 @@ export const useCookieConsent = () => {
     // Marketing cookies (publicité)
     if (settings.marketing && typeof gtag !== 'undefined') {
       gtag('consent', 'update', {
-        ad_storage: 'granted'
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted',
       })
     } else if (typeof gtag !== 'undefined') {
       gtag('consent', 'update', {
-        ad_storage: 'denied'
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
       })
     }
 
@@ -157,6 +161,8 @@ export const useCookieConsent = () => {
         gtag('consent', 'default', {
           analytics_storage: 'denied',
           ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
           functionality_storage: 'denied'
         })
       }
