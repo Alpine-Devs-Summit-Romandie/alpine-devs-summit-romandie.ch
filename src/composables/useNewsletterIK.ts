@@ -7,7 +7,7 @@ const useNewsletterIK = () => {
   function loadExternalScripts() {
     // Load Altcha script
     const altchaScript = document.createElement('script');
-    altchaScript.src = 'https://eu.altcha.org/js/latest/altcha.min.js';
+    altchaScript.src = 'https://cdn.jsdelivr.net/gh/altcha-org/altcha/dist/altcha.min.js';
     altchaScript.type = 'module';
     altchaScript.defer = true;
     document.head.appendChild(altchaScript);
