@@ -2,6 +2,7 @@ export default {
   header: {
     topBar: {
       home: 'Home',
+      survey: 'Survey',
       mission: 'Mission',
       newsletterBtn: 'Stay informed'
     }
@@ -16,7 +17,6 @@ export default {
       subtitle: 'Romandy conference for developers of all levels.',
       survey: 'Take part in our survey and help shape this new conference.',
       surveyBtn: 'Take the survey',
-      surveyLink: 'https://fr.surveymonkey.com/r/KNSJJMX'
     }
   },
   values: {
@@ -86,11 +86,56 @@ export default {
     }
   },
   mission: {
-    "title": "Our Mission",
-    "paragraph1": "Software development is evolving rapidly, but spaces to share concrete and pragmatic feedback and experiences in the region are still too rare.",
-    "paragraph2": "Alpine Devs Summit Romandie is a conference dedicated to developers in the Romandie region. Our mission is to grow the local developer ecosystem by creating an event designed as a space for exchange and learning, where software professionals can share knowledge, discover the latest technological trends, and promote modern development best practices.",
-    "paragraph3": "We believe better software is built collectively within an open and inclusive community, where everyone, regardless of experience level, can learn, contribute, and benefit from shared knowledge. By anchoring our event in the unique setting of Western Switzerland, we aim to inspire developers to reach new heights in their careers and projects.",
-    "paragraph4": "Our commitment: to foster responsible innovation, encourage cross-company collaboration, and strengthen the regional tech ecosystem through high-quality talks, hands-on workshops, and authentic networking opportunities."
+    title: "Our Mission",
+    paragraph1: "Software development is evolving rapidly, but spaces to share concrete and pragmatic feedback and experiences in the region are still too rare.",
+    paragraph2: "Alpine Devs Summit Romandie is a conference dedicated to developers in the Romandie region. Our mission is to grow the local developer ecosystem by creating an event designed as a space for exchange and learning, where software professionals can share knowledge, discover the latest technological trends, and promote modern development best practices.",
+    paragraph3: "We believe better software is built collectively within an open and inclusive community, where everyone, regardless of experience level, can learn, contribute, and benefit from shared knowledge. By anchoring our event in the unique setting of Western Switzerland, we aim to inspire developers to reach new heights in their careers and projects.",
+    paragraph4: "Our commitment: to foster responsible innovation, encourage cross-company collaboration, and strengthen the regional tech ecosystem through high-quality talks, hands-on workshops, and authentic networking opportunities."
+  },
+  survey: {
+    hero: {
+      title: 'Help us build the Romandy developers conference',
+      subtitle: 'Take a 2-minute survey to shape an event based on real field experiences.',
+      textCTA: 'I participate in the survey (2 min)',
+      emphaseCTA: '⏱ 2 minutes • 🎓 students & devs • 🔒 anonymous',
+    },
+    why: {
+      title: 'Why this survey?',
+      col1: {
+        heading: 'Understand your needs',
+        text: 'Identify the real expectations of future developers'
+      },
+      col2: {
+        heading: 'Build useful content',
+        text: 'Concrete talks, without useless theory'
+      },
+      col3: {
+        heading: 'Create for you',
+        text: 'An event aligned with field reality'
+      },
+    },
+    benefits: {
+      heading: 'What you get out of it',
+      item1: 'Influence the conference topics',
+      item2: 'Make your vision of the profession heard',
+      item3: 'Contribute to a useful local event',
+      item4: 'Access a relevant conference',
+      item5: '20% discount on the entry price',
+    },
+    about: {
+      heading: 'About the project',
+      paragraph1: 'We are launching a conference in French-speaking Switzerland dedicated to developers of all levels.',
+      paragraph2: 'The goal: share concrete feedback on modern software engineering practices.',
+      paragraph3: 'A bilingual event (FR/EN), pragmatic and rooted in field reality.'
+    },
+    schoolInfo: {
+      heading: 'For institutions',
+      text: 'This survey allows aligning the event with the expectations of students and the market. Please forward it to your computer science students.'
+    },
+    finalCTA: {
+      heading: 'Your opinion really matters',
+      goSurvey: 'Access the survey',
+    }
   },
   contact: {
     title: 'Contact Us',
@@ -111,6 +156,7 @@ export default {
   },
   common: {
     cancel: 'Cancel',
-    close: 'Close'
+    close: 'Close',
+    surveyURL: 'https://fr.surveymonkey.com/r/KNSJJMX'
   }
 }
