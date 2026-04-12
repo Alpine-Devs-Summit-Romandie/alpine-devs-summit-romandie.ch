@@ -29,6 +29,13 @@ function switchLang() {
     <v-btn
       variant="plain"
       color="primary"
+      to="/sondage"
+    >
+      {{ $t('header.topBar.survey') }}
+    </v-btn>
+    <v-btn
+      variant="plain"
+      color="primary"
       to="/mission"
     >
       {{ $t('header.topBar.mission') }}

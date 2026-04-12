@@ -11,6 +11,10 @@ const router = createRouter({
       path: '/mission',
       component: () => import('@/views/MissionView.vue'),
     },
+    {
+      path: '/sondage',
+      component: () => import('@/views/SondageView.vue'),
+    },
   ],
 })
 

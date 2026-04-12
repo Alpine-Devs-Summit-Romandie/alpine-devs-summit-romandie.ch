@@ -2,6 +2,7 @@ export default {
   header: {
     topBar: {
       home: 'Accueil',
+      survey: 'Sondage',
       mission: 'Mission',
       newsletterBtn: 'Restez informé·e'
     }
@@ -16,7 +17,6 @@ export default {
       subtitle: 'Conférence Romande pour Développeur·euse·s de tous niveaux.',
       survey: 'Participez à notre sondage et contribuez à l\'élaboration de cette nouvelle conférence.',
       surveyBtn: 'Participez au sondage',
-      surveyLink: 'https://fr.surveymonkey.com/r/KNSJJMX',
     }
   },
   values: {
@@ -91,7 +91,51 @@ export default {
     paragraph2: "Alpine Devs Summit Romandie est une conférence dédiée aux développeur·euse·s de la région romande. Notre mission est de faire grandir l'écosystème des développeur·euse·s en Suisse romande en créant un événement qui se veut être un espace d'échange et d'apprentissage, où les professionnel·le·s du développement logiciel peuvent partager leurs connaissances, découvrir les dernières tendances technologiques et promouvoir les meilleures pratiques du développement moderne.",
     paragraph3: "Nous croyons qu'un meilleur logiciel se construit collectivement, au sein d'une communauté ouverte et inclusive, où chacun·e, quel que soit son niveau d'expérience, peut apprendre, contribuer et bénéficier du partage collectif. En ancrant notre événement dans le cadre unique de la Romandie, nous souhaitons inspirer les développeur·euse·s à atteindre de nouveaux sommets dans leur carrière et leurs projets.",
     paragraph4: "Notre engagement : favoriser une innovation responsable, encourager la collaboration inter-entreprises et renforcer l'écosystème technologique de la Suisse romande à travers des conférences de qualité, des ateliers pratiques et des moments de networking authentiques."
-
+  },
+  survey: {
+    hero: {
+      title: 'Aidez-nous à construire la conférence des développeur·euse·s romand·e·s',
+      subtitle: 'Participez à un sondage de 2 minutes pour façonner un événement basé sur des expériences réelles de terrain.',
+      textCTA: 'Je participe au sondage (2 min)',
+      emphaseCTA: '⏱ 2 minutes • 🎓 étudiant·e·s & devs • 🔒 anonyme',
+    },
+    why: {
+      title: 'Pourquoi ce sondage ?',
+      col1: {
+        heading: 'Comprendre vos besoins',
+        text: 'Identifier les attentes réelles des futurs développeurs'
+      },
+      col2: {
+        heading: 'Construire du contenu utile',
+        text: 'Des talks concrets, sans théorie inutile'
+      },
+      col3: {
+        heading: 'Créer pour vous',
+        text: 'Un événement aligné avec la réalité du terrain'
+      },
+    },
+    benefits: {
+      heading: 'Ce que vous y gagnez',
+      item1: 'Influencer les sujets de la conférence',
+      item2: 'Faire entendre votre vision du métier',
+      item3: 'Contribuer à un événement local utile',
+      item4: 'Accéder à une conférence pertinente',
+      item5: '20% de remise sur le prix d\'entrée',
+    },
+    about: {
+      heading: 'À propos du projet',
+      paragraph1: 'Nous lançons une conférence en Suisse romande dédiée aux développeur·euse·s de tous niveaux.',
+      paragraph2: 'L’objectif : partager des retours d’expérience concrets sur les pratiques modernes du software engineering.',
+      paragraph3: 'Un événement bilingue (FR/EN), pragmatique et ancré dans la réalité du terrain.'
+    },
+    schoolInfo: {
+      heading: 'Pour les institutions',
+      text: 'Ce sondage permet d’aligner l’événement avec les attentes des étudiant·e·s et du marché. Merci de le relayer à vos étudiant·e·s en informatique.'
+    },
+    finalCTA: {
+      heading: 'Votre avis compte vraiment',
+      goSurvey: 'Accéder au sondage',
+    }
   },
   contact: {
     title: 'Contactez-nous',
@@ -112,6 +156,7 @@ export default {
   },
   common: {
     cancel: 'Annuler',
-    close: 'Fermer'
+    close: 'Fermer',
+    surveyURL: 'https://fr.surveymonkey.com/r/KNSJJMX'
   }
 }
