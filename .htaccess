@@ -1,0 +1,13 @@
+# Activer mod_rewrite
+RewriteEngine On
+
+# Si votre application est déployée dans un sous-dossier, décommentez et ajustez :
+# RewriteBase /
+
+# Ne pas réécrire les demandes pour des fichiers ou répertoires existants
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Réécrire toutes les autres requêtes vers index.html pour que le routeur client prenne le relais
+RewriteRule ^ index.html [L,QSA]
