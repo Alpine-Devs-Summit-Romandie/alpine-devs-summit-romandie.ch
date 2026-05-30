@@ -22,11 +22,15 @@ export default defineConfig({
     }),
   ],
   build: {
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        manualChunks: {
-          vuetify: ['vuetify'],
-          vue: ['vue', 'vue-router', 'pinia', 'vue-i18n'],
+        manualChunks: (id) => {
+          if (id.includes('vuetify')) {
+            return 'vuetify';
+          }
+          if (id.includes('node_modules/vue') || id.includes('node_modules/vue-router') || id.includes('node_modules/pinia') || id.includes('node_modules/vue-i18n')) {
+            return 'vue-core';
+          }
         },
       },
     },
