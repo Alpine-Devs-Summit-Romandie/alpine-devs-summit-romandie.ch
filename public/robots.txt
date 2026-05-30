@@ -1,0 +1,10 @@
+# robots.txt généré automatiquement
+User-agent: *
+Allow: /
+
+# Sitemap canonical (HTTPS)
+Sitemap: https://alpine-devs-summit-romandie.ch/sitemap.xml
+
+# Note: http://alpine-devs-summit-romandie.ch doit rediriger vers https://alpine-devs-summit-romandie.ch
+# et https://www.alpine-devs-summit-romandie.ch doit rediriger vers https://alpine-devs-summit-romandie.ch (config serveur)
+

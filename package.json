@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "prebuild": "npm run generate-sitemap",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
