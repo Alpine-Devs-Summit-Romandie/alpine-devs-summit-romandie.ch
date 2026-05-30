@@ -15,6 +15,11 @@ const router = createRouter({
       path: '/sondage',
       component: () => import('@/views/SondageView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: () => import('@/views/NotFoundView.vue'),
+    },
   ],
 })
 

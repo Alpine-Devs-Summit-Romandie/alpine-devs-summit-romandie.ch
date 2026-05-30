@@ -154,9 +154,15 @@ export default {
     success: 'Message envoyé avec succès',
     error: 'Erreur lors de l\'envoi'
   },
-  common: {
-    cancel: 'Annuler',
-    close: 'Fermer',
-    surveyURL: 'https://fr.surveymonkey.com/r/KNSJJMX'
-  }
+   notFound: {
+     title: '404',
+     heading: 'Page non trouvée',
+     description: 'Désolé, la page que vous recherchez n\'existe pas.',
+     backHome: 'Retour à l\'accueil'
+   },
+   common: {
+     cancel: 'Annuler',
+     close: 'Fermer',
+     surveyURL: 'https://fr.surveymonkey.com/r/KNSJJMX'
+   }
 }
