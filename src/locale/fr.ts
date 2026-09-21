@@ -163,6 +163,6 @@ export default {
    common: {
      cancel: 'Annuler',
      close: 'Fermer',
-     surveyURL: 'https://fr.surveymonkey.com/r/KNSJJMX'
+     surveyURL: 'https://forms.gle/SZw9Yjq9fMhmxSUZA'
    }
 }
